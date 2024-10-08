@@ -1,7 +1,13 @@
-import React from 'react';
+import React from 'react'
 
 const Home = () => {
-  return <h1>Welcome to BSNL Home Page</h1>;
-};
+  return (
+    <div>
 
-export default Home;
+      <h1>Welcome to BSNL home page</h1>
+      <h3>Get all telecom services</h3>
+    </div>
+  )
+}
+
+export default Home
